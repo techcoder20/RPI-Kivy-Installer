@@ -21,7 +21,7 @@ printf "${BLUE}Do you want to install kivy in a virtual environment. A virtual e
 read answer
 echo " "
 
-if [ $answer == 'y' ];then
+if [ "$answer" == 'y' ];then
 
   echo " "
   printf "${GREEN}OK, Installing in virtual environment${NC} \\n"
