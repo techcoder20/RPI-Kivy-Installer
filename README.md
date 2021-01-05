@@ -6,7 +6,12 @@
 
 ## Installation
 Run The Following Command To Install Kivy On RPI  
-`wget -qO- https://raw.githubusercontent.com/techcoder20/RPI-Kivy-Installer/main/install.sh | bash `  
+`git clone git clone https://github.com/techcoder20/RPI-Kivy-Installer.git ~/RPI-Kivy-Installer && cd ~/RPI-Kivy-Installer && sudo chmod +x install.sh && ./install.sh`
+
+## Uninstallation
+Run The Following Command To Uninstall Kivy  
+`sudo chmod +x ~/RPI-Kivy-Installer/uninstall.sh && ./RPI-Kivy-Installer/uninstall.sh`
+
   
 ## Video Tutorial Coming Soon
 
